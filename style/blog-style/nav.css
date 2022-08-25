@@ -1,0 +1,23 @@
+.head {
+    text-align: center;
+}
+.navbar {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+.nav-items {
+    margin: 2%;
+    padding: 1%;
+    background-color: bisque;
+}
+a {
+    text-decoration: none;
+}
+@media (min-width: 480px) {
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

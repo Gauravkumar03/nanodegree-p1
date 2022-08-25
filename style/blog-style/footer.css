@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+.footer {
+    width: 90%;
+    height: 200px;
+    margin: 50px auto;
+    padding: 5%;
+    background-color: gainsboro;
+}
+.icons {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+}
+.icons img {
+    height: 30px;
+    width: 30px;
+}
+.copyright {
+    text-align: center;
+    font-family: 'Arvo', serif;
+}

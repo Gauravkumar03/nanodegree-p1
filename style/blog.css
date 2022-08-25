@@ -1,0 +1,22 @@
+@import "blog-style/nav.css";
+@import "blog-style/footer.css";
+@import "blog-style/card.css";
+
+.main {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr;
+    margin-top: 50px;
+}
+
+@media (min-width: 480px) {
+    .main {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 768px) {
+    .main {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
