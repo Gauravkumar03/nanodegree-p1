@@ -1,5 +1,8 @@
+@import "post-style/author.css";
+@import "blog-style/footer.css";
+
 .heading {
-    height: 100px;
+    height: auto;
     border: 1px solid black;
     text-align: center;
 }
@@ -8,30 +11,21 @@
     display: grid;
 }
 
-section, .article {
+.section, .article {
     height: auto;
     margin: 2%;
     padding: 2%;
 }
 
-section, .article {
+.section, .article {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-li, button {
+ul li, .btn {
     padding: 5%;
     margin: 2%;
     text-decoration: underline;
-}
-
-.italic {
-    font-style: italic;
-    color: darkolivegreen;
-}
-
-.bold {
-    font-style: bold;
-    color: darkcyan;
+    color: green;
 }
 
 .main-body img {

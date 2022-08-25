@@ -10,9 +10,15 @@
 <body>
     <nav class="heading">
         <h1>Sample Blog</h1>
+        <div class="author-info">
+            <img id="avatar-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR14OdikcbX2w3gZ8u5D_57FIY_XYupQcXmq1n8pBtE0AE-rNfkRFZ2NBc41-nMKB9feb8&usqp=CAU" alt="myimage">
+            <h3>Gaurav Kumar</h3>
+            <p>Full Stack Web Developer at Masai School</p>
+            <p>Hi, I am Gaurav currently studying Front End Web Development at Udacity and also an aspiring Machine Learning Engineer. Here is the sample blog to showcase my html and css skills.</p>
+        </div>
     </nav>
     <div class="main-body">
-        <section>
+        <section class="section">
             <h3>Section</h3>
             <ul>
                 <li>Section1</li>
@@ -30,14 +36,14 @@
                          alt="Elephant at sunset">
                     <figcaption>An elephant at sunset</figcaption>
                 </figure>
-                <button>Subscribe</button>
-                <a href="blog.html"><button>Back to Homepage</button></a>
+                <button class="btn">Subscribe</button>
+                <a href="blog.html"><button class="btn">Back to Homepage</button></a>
             </ul>
         </section>
-        <div class="article italic" id="article1">
+        <div class="article" id="article1">
             <h3>Article 1</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid autem minima nulla nobis ipsa totam laboriosam sapiente animi eos nihil obcaecati cum similique possimus, officiis at reprehenderit sequi, dolor expedita.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid autem minima nulla nobis ipsa totam laboriosam sapiente animi eos nihil obcaecati cum similique possimus, officiis at reprehenderit sequi, dolor expedita.</p>
+            <p><u>This is underlined</u> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid autem minima nulla nobis ipsa totam laboriosam sapiente animi eos nihil obcaecati cum similique possimus, officiis at reprehenderit sequi, dolor expedita.</p>
             <blockquote cite="http://www.worldwildlife.org/who/index.html">
                 For 50 years, WWF has been protecting the future of nature.
                 The world's leading conservation organization,
@@ -46,10 +52,10 @@
                 close to 5 million globally.
             </blockquote>
         </div>
-        <div class="article bold" id="article2">
+        <div class="article" id="article2">
             <h3>Article2</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid autem minima nulla nobis ipsa totam laboriosam sapiente animi eos nihil obcaecati cum similique possimus, officiis at reprehenderit sequi, dolor expedita.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid autem minima nulla nobis ipsa totam laboriosam sapiente animi eos nihil obcaecati cum similique possimus, officiis at reprehenderit sequi, dolor expedita.</p>
+            <p><b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid autem minima nulla nobis ipsa totam laboriosam sapiente animi eos nihil obcaecati cum similique possimus, officiis at reprehenderit sequi, dolor expedita.</b></p>
+            <p><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid autem minima nulla nobis ipsa totam laboriosam sapiente animi eos nihil obcaecati cum similique possimus, officiis at reprehenderit sequi, dolor expedita.</i></p>
             <blockquote cite="http://www.worldwildlife.org/who/index.html">
                 For 50 years, WWF has been protecting the future of nature.
                 The world's leading conservation organization,
@@ -59,5 +65,14 @@
             </blockquote>
         </div>
     </div>
+    <footer class="footer">
+        <div class="icons">
+            <img src="https://image.shutterstock.com/image-photo/valencia-spain-march-05-2017-260nw-593204357.jpg" alt="facebook-logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" alt="instagram-logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/2491px-Twitter-logo.svg.png" alt="twitter-logo">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="linkedin-logo">
+        </div>
+        <p class="copyright">Copyright. All rights reserved.</p>
+    </footer>
 </body>
 </html>
